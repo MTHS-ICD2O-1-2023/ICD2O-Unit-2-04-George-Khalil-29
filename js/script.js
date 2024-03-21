@@ -19,5 +19,5 @@ function calculatePermeterAndAreaOfRectangle () {
 
   // output
   document.getElementById('area').innerHTML = 
-  "Area is: " + areaOfTriangle+ ' cm²'
+  "Area is: " + baseoftriangle + heightoftriangle + ' cm²'
 }
