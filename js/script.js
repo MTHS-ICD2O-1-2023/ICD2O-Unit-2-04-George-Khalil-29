@@ -9,10 +9,10 @@
 /**
  * This function calculates area of a triangle.
  */
-function clickmybutton() {
+function calculatePermeterAndAreaOfRectangle() {
   // input
-  const baseOftriangle = parseInt(document.getElementById('Base-of-Triangle').value)
-  const heightOftriangle = parseInt(document.getElementById('Height-of-Triangle').value)
+  const baseOftriangle = parseInt(document.getElementById('base-of-triangle').value)
+  const heightOftriangle = parseInt(document.getElementById('height-of-triangle').value)
 
   // process
   const areaOfRectangle = baseOftriangle * heightOftriangle / 2 ;
