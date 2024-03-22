@@ -11,8 +11,8 @@
  */
 function clickmybutton() {
   // input
-  const baseOftriangle = parseInt(document.getElementById('base-of-triangle').value)
-  const heightOftriangle = parseInt(document.getElementById('height-of-triangle').value)
+  const baseOftriangle = parseInt(document.getElementById('Base-of-Triangle').value)
+  const heightOftriangle = parseInt(document.getElementById('Height-of-Triangle').value)
 
   // process
   const areaOfRectangle = baseOftriangle * heightOftriangle / 2 ;
